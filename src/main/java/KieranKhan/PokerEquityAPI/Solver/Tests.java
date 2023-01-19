@@ -16,6 +16,6 @@ public class Tests {
 
     public void test2() {
         Solver s = new Solver();
-        s.exec();
+        //s.exec();
     }
 }

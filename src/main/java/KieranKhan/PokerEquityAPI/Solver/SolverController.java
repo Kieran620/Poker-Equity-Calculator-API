@@ -17,8 +17,10 @@ public class SolverController {
         return service.hello();
     }
 
-    @GetMapping()
+    @GetMapping("/data")
     public List<String> getEquity() {
+        if(solver == null)
+            return null;
         return solver.exec2();
     }
 
